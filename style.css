@@ -1,0 +1,129 @@
+html{
+    font-family: 'Karla', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    background-color:rgba(231,239,247,255);
+  }
+
+ 
+  .card{
+    margin-top:6%;
+    margin-left:28%;
+    width:44%;
+    height:auto;
+    box-shadow: 1px 5px 10px 5px gray;
+    border-radius: 5px;
+  }
+
+ 
+  .bottom{
+    display:flex;
+  }
+  .top{
+    flex:50%;
+    height:250px;
+    background-color:white;
+  }
+  
+  .top h2{
+    color:hsl(179, 62%, 43%);
+    margin-left:19px;;
+    padding-top:19px;
+  }
+  .top h4{
+    color:hsl(71, 73%, 54%);
+    margin-left:19px;
+  }
+  
+  p{
+    color:hsl(218, 22%, 67%);
+    margin-left:19px;;
+  }
+  
+  .bottom-left{
+    flex:50%;
+    height:250px;
+    background-color:rgba(42,179,176,255);
+  
+  }
+  
+  .bottom-right{
+    flex:50%;
+    height:250px;
+    background-color:rgba(74,190,189,255);
+  }
+  
+  .bottom-left h4{
+    color:white;
+    margin-left:19px;;
+  }
+  
+  .bottom-left p{
+    color:white;
+  }
+  
+  
+  .bottom-right h4{
+    color:white;
+  }
+  
+  li{
+    list-style-type: none;
+    padding-top:3px;
+    color:rgb(181,219,225);
+  }
+  
+  .price{
+    font-size:24px;
+    font-family: 'Karla', sans-serif;
+    color:white;
+  }
+  .per{
+    font-size:14px;
+    vertical-align: 30%;
+    color:hsl(204, 43%, 93%);
+  }
+  
+  .button1{
+    width:80%;
+    height:40px;
+    font-size:20px;
+    margin-left :10%;
+    background-color:rgba(190,222,50,255);
+    color:white;
+    border-radius: 4px;
+    border:none;
+    box-shadow:
+      1px 1px 1px 1px rgba(59, 159, 115, 1);
+  }
+  
+  .button1:hover{
+    background-color:rgba(165, 194, 54, 1);
+    cursor:pointer;
+    color:gray;
+    transform: scale(1.02);
+  }
+
+  @media screen and (max-width: 1088px) {
+    body{
+      padding: 3px;
+    }
+    .card {
+      margin-top: 6%;
+      margin-left: 5%;
+      margin-right: 5%;
+      width: 90%;
+    }
+    .bottom-left,.bottom-right{
+      width:100%;
+    }  
+    
+  }
+  @media screen and (max-width: 538px) {
+    .bottom {
+      flex-direction: column; 
+    }
+  }
+  
+ 
+  
